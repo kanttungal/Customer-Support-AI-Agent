@@ -1,0 +1,6 @@
+MODEL_NAME = "meta-llama/llama-3.1-8b-instruct"
+MAX_SEARCH_RESULTS = 3
+MAX_CHAT_HISTORY = 10
+TEMPERATURE = 0
+COMPANY_NAME = "ABC STORE"
+SUPPORT_EMAIL = "support@abcstore.com"

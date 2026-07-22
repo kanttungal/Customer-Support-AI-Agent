@@ -1,0 +1,26 @@
+[
+    {
+        "customer_id": "A001",
+        "name": "Vishnu",
+        "email": "vishnutungal@gmail.com",
+        "phone": "9737382912",
+        "membership": "Gold"
+
+    },
+
+    {
+        "customer_id": "B002",
+        "name": "Kant",
+        "email": "kanttungal@gmail.com",
+        "phone": "8937281938",
+        "membership": "Silver"
+    },
+
+    {
+        "customer_id": "C003",
+        "name": "Vishnukant",
+        "email": "vishnukant1@gmail.com",
+        "phone": "9027186374",
+        "membership": "Regular"
+    }
+]

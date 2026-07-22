@@ -1,0 +1,23 @@
+[
+    {
+        "order_id": "12345",
+        "customer_id": "B001",
+        "product": "Laptop",
+        "status": "Shipped",
+        "delivery_date": "2026-07-17"
+    },
+    {
+        "order_id": "12346",
+        "customer_id": "B002",
+        "product": "Smartphone",
+        "status": "Processing",
+        "delivery_date": "2026-07-15"
+    },
+    {
+        "order_id": "12347",
+        "customer_id": "C003",
+        "product": "Headphones",
+        "status": "Delivered",
+        "delivery_date": "2026-07-14"
+    }
+]
