@@ -14,30 +14,31 @@ def escalation_agent(state: AgentState):
     )
 
     logger.info(
-        f"Ticket Created:{ticket["ticket_id"]}"
+        f"Ticket Created: {ticket['ticket_id']}"
     )
 
     state["session"]["last_ticket_id"] = ticket["ticket_id"]
     state["session"]["last_agent"] = "escalation"
 
     state["context"] = f"""
-
 Support Ticket Created
 
-Ticket ID: {ticket["ticket_id"]}
+Ticket ID: {ticket['ticket_id']}
 
-status: {ticket["status"]}
+Status: {ticket['status']}
 
-Priority: {ticket["priority"]}
+Priority: {ticket['priority']}
 
-Created at: {ticket["created_at"]}
+Created at: {ticket['created_at']}
 """
 
     state["sources"] = []
+
     result = generate_response(
         ESCALATION_PROMPT,
         state
     )
 
     logger.info("Escalation Agent Finished")
+
     return result
